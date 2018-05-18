@@ -1,0 +1,13 @@
+/*
+Theme Name: Holo2go
+Author: ArsenalTech
+*/
+:root {
+    --menuLink: #080808;
+    --footerBg: #171516;
+    --socialmedia: #7c7b7c  ;
+}
+header{height:73px}
+.navbar-expand-xl .navbar-nav .nav-link{color: var(--menuLink);font-size: 12pt}
+footer{background-color: var(--footerBg)}
+footer .navbar-expand-xl .navbar-nav .nav-link{color: var(--socialmedia);font-size:20px}
