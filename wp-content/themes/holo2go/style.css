@@ -462,6 +462,7 @@ div#questions-section {
     color: #3d4246;
     line-height: 36px;
 }
+p.talkfordesignpara a,
 #questions-section p.talkfordesignpara a {
     color: #C659D7;
     font-size: 18px;
@@ -1172,45 +1173,56 @@ div#homepage-video-sldier > .panel-grid-cell{
     font-size: 20px;
     line-height: 30px;
 }
-.schedule_page_div_form div#gform_wrapper_2 {
-    width: 76%;
-    margin: 113px 40px 0;
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper {
+    margin: 113px 0;
 }
-.schedule_page_div_form div#gform_wrapper_2 textarea {
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper textarea {
     height: 200px;
 }
-.schedule_page_div_form div#gform_wrapper_2 input[type="text"],
-.schedule_page_div_form div#gform_wrapper_2 select, .schedule_page_div_form div#gform_wrapper_2 textarea {
-    width: 78%;
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper input[type="text"],
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper select, .schedule_page_div_form div.gform_wrapper.request_consultation_wrapper textarea {
+    width: 100%;
     border: 1px solid #BEC6CA;
     padding: 5px 10px;
-    background: transparent;
+    background: url('images/dropdown-arrow.png') no-repeat right 10px center;
+    height: 41px;
+    font-size: 16px;
+    color: #000;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    line-height: 22.8571px;
 }
 
-.schedule_page_div_form div#gform_wrapper_2 li#field_2_3 > label {
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper li.checkboxlabel > label {
     display: none;
 }
 
-.schedule_page_div_form div#gform_wrapper_2 li#field_2_3 input#choice_2_3_1 {
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper li.checkboxlabel input[type="checkbox"] {
     margin-top: -30px;
 }
 
-.schedule_page_div_form div#gform_wrapper_2 label {
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper label {
     font-size: 18px;
+    text-transform: none;
+    color: #3d4246;
+    font-family: 'armourbold';
+    margin: 7px 0;
 }
 #gform_fields_2 img.ui-datepicker-trigger {
     width: 18px !important;
     height: 21px !important;
     position: absolute;
-    right: 24%;
+    right: 10px;
     top: 8px;
 }
 
 .request_consultation .ginput_container.ginput_container_date {
     position: relative;
 }
-.schedule_page_div_form div#gform_wrapper_2 li#field_2_3 {
-    margin: 22px;
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper li.checkboxlabel {
+    margin: 15px;
 }
 .request_consultation .gform_footer input[type=submit] {
     display: inline-block;
@@ -1298,12 +1310,19 @@ li#field_4_3 .ginput_container {
     width: 79%;
 }
 li#field_4_3 .ginput_container select#input_4_3 {
-    background: transparent;
+    background: url(images/contact-arrow.png) no-repeat right 10px center;
     border: 1px solid #000;
-    padding: 13px 0;
+    padding: 13px 0 13px 13px;
     width: 100%;
     text-transform: unset;
     font-weight: bold;
+    text-align: center !important;
+    font-family: 'armourbold';
+    font-size: 16px;
+    background-size: 17px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 li#field_4_6 textarea#input_4_6 {
     height: 65px;
@@ -1330,6 +1349,7 @@ li#field_4_6 textarea#input_4_6 {
 }
 div#panel-21-0-0-1 h5, div#panel-21-0-0-1 i {
     color: #00B8D8;
+    font-size: 25px;
 }
 div#panel-21-0-0-1 {
     padding: 0 97px;
@@ -1542,4 +1562,84 @@ div#homepage-video-sldier.holosense {
 div#homepage-video-sldier.holosense .video_slider.holosense {
     float: right;
     margin-right: 30px;
+}
+.gform_wrapper ul.gfield_checkbox li label {
+    font-family: 'armourbold';
+    text-transform: none;
+    font-weight: 400;
+    color: #3d4246;
+    line-height: 25.7143px;
+}
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper .bold-labels label {
+    font-family: 'armourbold';
+}
+.schedule_page_div_form .panel-grid-cell:nth-child(2) {
+    position: relative;
+    left: -56px;
+    max-width: 570px;
+}
+.schedule_page_div_form.panel-row-style {
+    justify-content: center !important;
+}
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0 !important;    margin-top: 8px !important;
+}
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper select {
+    font-family: 'open_sansregular';
+}
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper .checkboxlabel label {
+    font-family: 'armourregular';
+    margin: 7px 0;
+    padding-left: 2px;
+    max-width: 100%;
+    width: calc(100% - 18px);
+}
+body .gform_wrapper .top_label .ginput_container.ginput_container_textarea {
+    margin: 0;
+}
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper textarea {
+    height: 200px;
+    background: none;
+}
+.gform_wrapper .gfield_required {
+    display: none;
+}
+body .gform_wrapper .top_label div.ginput_container {
+    margin: 0 0 15px !important;
+}
+.schedule_page_div_form div.gform_wrapper.request_consultation_wrapper input[type="text"] {
+    background: none;
+}
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
+    font-size: 16px !important;
+    padding: 6px 12px !important;
+}
+.gchoice_select_all, .gform_wrapper ul.gfield_checkbox li input[type=checkbox]:checked+label, .gform_wrapper ul.gfield_radio li input[type=radio]:checked+label{
+    font-weight: 400 !important;
+}
+form.contact_form_div label.gfield_label {
+    font-family: 'armourbold';
+}
+.gform_wrapper .contact_form_div ul.gform_fields li.gfield:first-child {
+    padding-right: 50px !important;
+}
+.gform_wrapper .top_label label.gfield_label {
+    font-size: 16px;
+}
+div#pgc-w5b07ee9071ba9-0-1,
+div#panel-w5b07eeabc47c1-0-1-0 {
+    padding-left: 30px;
+}
+i.fa.fa-phone.fa-blue_color, i.fa.fa-question-circle.fa-blue_color {
+    margin-top: 10px;
+}
+div#pgc-w5b07eeabc465e-0-1 {
+    padding-left: 10px;
+}
+div#panel-w5b07eeabc47c1-0-1-0 p, div#pgc-w5b07ee9071ba9-0-1 p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+div#panel-w5b07eeabc465e-0-1-0 p {
+    font-size: 18px;
 }
