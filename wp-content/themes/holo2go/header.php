@@ -12,7 +12,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
@@ -25,7 +25,7 @@
 <header>
 	<div class="container-fluid">
 		<div class="row align-items-center top-header">
-			<div class="col-xl-2">
+			<div class="col-md-2 col-xl-2 header-logo">
 				<div class="logo">
 					<a href="<?php echo get_site_url();?>" title="Holo2go">
 						<?php
@@ -38,7 +38,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-xl-10">
+			<div class="col-md-10 col-xl-10 header-nav">
 				<nav class="navbar navbar-expand-xl justify-content-end p-0">
 					<?php wp_nav_menu( array(
 						'theme_location' => 'primary',

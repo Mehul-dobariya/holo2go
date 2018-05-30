@@ -13,8 +13,8 @@
 </div>
 <section class="p-5 footer-subcription-div">
     <div class="row align-items-center">
-        <div class="col-lg-6 text-right"><h2>Stay up to date with Holo2go</h2></div>
-        <div class="col-lg-6"><button id="open_footer_form">SUBSCRIBE</button></div>
+        <div class="col-md-6 col-lg-6 text-right"><h2>Stay up to date with Holo2go</h2></div>
+        <div class="col-md-6 col-lg-6 subs-button"><button id="open_footer_form">SUBSCRIBE</button></div>
         <!-- The Modal -->
         <div id="subcription-model" class="subcription-model-div">
 
@@ -27,7 +27,8 @@
         </div>
     </div>
 </section>
-<footer class="p-5">
+<footer class="p-5 site-footer">
+    <div class="footer-bottom"></div>
     <div class="container">
         <div class="row justify-content-center">
             <nav class="navbar navbar-expand-xl">
@@ -49,6 +50,9 @@
             
         });
         jQuery('.video_slider .carousel').carousel({
+            
+        });
+		jQuery('.price-card-slider-content.carousel').carousel({
             
         });
         // Get the modal

@@ -136,6 +136,7 @@ function holo2go_scripts() {
 	wp_enqueue_style( 'holo2go-fonts', get_template_directory_uri().'/css/font-awesome.css');
 	wp_enqueue_style( 'holo2go-theme-fonts', get_template_directory_uri().'/css/fonts.css');
 	wp_enqueue_style( 'holo2go-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'holo2go-theme-responsive', get_template_directory_uri().'/css/responsive.css');
 	wp_enqueue_script( 'bootstrap.min.js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'));
 }
 add_action( 'wp_enqueue_scripts', 'holo2go_scripts' );
@@ -202,14 +203,14 @@ function shortcode_testimonials ( $atts ) {
 		            //echo ' "'.get_the_title().'" ';
 		            ?>
 					    <div class="carousel-item <?php if($j == 0) { echo 'active'; }?>">
-					      	<div class="col-lg-4">
-						    	<span class="comments text-center"><img class="quote-start" src="<?php echo get_template_directory_uri(); ?>/images/testimonial-quote-start.png" /><?php the_content(); ?><img class="quote-end" src="<?php echo get_template_directory_uri(); ?>/images/testimonial-quote-end.png" /></span>
+					      	<div class="col-lg-5 comment-section">
+						    	<span class="comments text-center"><img class="quote-start" src="<?php echo get_template_directory_uri(); ?>/images/testimonial-quote-start.png" /><?php echo get_field('client_description',get_the_ID()); ?><img class="quote-end" src="<?php echo get_template_directory_uri(); ?>/images/testimonial-quote-end.png" /></span>
 						      	<h3 class="client_name text-center"><?php the_title(); ?></h3>
 						      	<p class="position text-center"><?php echo get_field('client_position',get_the_ID()); ?></p>
 						    </div>
-						    <div class="col-lg-8 pr-0">  	
+						    <div class="col-lg-7 pr-0 pl-0 slide-section">  	
 					      		<?php $getImg = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'full' ); //print_r($getImg);?>
-					      		<img class="image-responsive testimonials_img" src="<?php echo $getImg[0]; ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>">
+					      		<?php the_content(); ?><!-- <img class="image-responsive testimonials_img" src="<?php echo $getImg[0]; ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>"> -->
 					      	</div>
 				      	</div>
 		            <?php

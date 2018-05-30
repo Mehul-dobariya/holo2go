@@ -132,3 +132,73 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'work_sanssemibold';
+    src: url('../fonts/worksans-semibold.woff2') format('woff2'),
+    url('../fonts/worksans-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansthin';
+    src: url('../fonts/worksans-thin.woff2') format('woff2'),
+    url('../fonts/worksans-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansblack';
+    src: url('../fonts/worksans-black.woff2') format('woff2'),
+    url('../fonts/worksans-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansbold';
+    src: url('../fonts/worksans-bold.woff2') format('woff2'),
+    url('../fonts/worksans-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansextrabold';
+    src: url('../fonts/worksans-extrabold.woff2') format('woff2'),
+    url('../fonts/worksans-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansextralight';
+    src: url('../fonts/worksans-extralight.woff2') format('woff2'),
+    url('../fonts/worksans-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sanshairline';
+    src: url('../fonts/worksans-hairline.woff2') format('woff2'),
+    url('../fonts/worksans-hairline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sanslight';
+    src: url('../fonts/worksans-light.woff2') format('woff2'),
+    url('../fonts/worksans-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansmedium';
+    src: url('../fonts/worksans-medium.woff2') format('woff2'),
+    url('../fonts/worksans-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansregular';
+    src: url('../fonts/worksans-regular.woff2') format('woff2'),
+    url('../fonts/worksans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
