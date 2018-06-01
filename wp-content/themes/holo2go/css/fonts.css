@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'armourblack_italic';
+    src: url('../fonts/armour_blkit-webfont.woff2') format('woff2'),
+         url('../fonts/armour_blkit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armouritalic';
+    src: url('../fonts/armour_it-webfont.woff2') format('woff2'),
+         url('../fonts/armour_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourlight';
+    src: url('../fonts/armour_lt-webfont.woff2') format('woff2'),
+         url('../fonts/armour_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourlight_italic';
+    src: url('../fonts/armour_ltit-webfont.woff2') format('woff2'),
+         url('../fonts/armour_ltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourmedium';
+    src: url('../fonts/armour_md-webfont.woff2') format('woff2'),
+         url('../fonts/armour_md-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourmedium_italic';
+    src: url('../fonts/armour_mdit-webfont.woff2') format('woff2'),
+         url('../fonts/armour_mdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourregular';
+    src: url('../fonts/armour_rg-webfont.woff2') format('woff2'),
+         url('../fonts/armour_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourxbold';
+    src: url('../fonts/armour_xbd-webfont.woff2') format('woff2'),
+         url('../fonts/armour_xbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourxbold_italic';
+    src: url('../fonts/armour_xbdit-webfont.woff2') format('woff2'),
+         url('../fonts/armour_xbdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourbold';
+    src: url('../fonts/armour_bd-webfont.woff2') format('woff2'),
+         url('../fonts/armour_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourbold_italic';
+    src: url('../fonts/armour_bdit-webfont.woff2') format('woff2'),
+         url('../fonts/armour_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'armourblack';
+    src: url('../fonts/armour_blk-webfont.woff2') format('woff2'),
+         url('../fonts/armour_blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosissemibold';
+    src: url('../fonts/dosis-semibold.woff2') format('woff2'),
+    url('../fonts/dosis-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosisbold';
+    src: url('../fonts/dosis-bold.woff2') format('woff2'),
+    url('../fonts/dosis-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'dosisextrabold';
+    src: url('../fonts/dosis-extrabold.woff2') format('woff2'),
+    url('../fonts/dosis-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosisextralight';
+    src: url('../fonts/dosis-extralight.woff2') format('woff2'),
+    url('../fonts/dosis-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosislight';
+    src: url('../fonts/dosis-light.woff2') format('woff2'),
+    url('../fonts/dosis-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosismedium';
+    src: url('../fonts/dosis-medium.woff2') format('woff2'),
+    url('../fonts/dosis-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosisregular';
+    src: url('../fonts/dosis-regular.woff2') format('woff2'),
+    url('../fonts/dosis-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sanssemibold';
+    src: url('../fonts/worksans-semibold.woff2') format('woff2'),
+    url('../fonts/worksans-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansthin';
+    src: url('../fonts/worksans-thin.woff2') format('woff2'),
+    url('../fonts/worksans-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansblack';
+    src: url('../fonts/worksans-black.woff2') format('woff2'),
+    url('../fonts/worksans-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansbold';
+    src: url('../fonts/worksans-bold.woff2') format('woff2'),
+    url('../fonts/worksans-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansextrabold';
+    src: url('../fonts/worksans-extrabold.woff2') format('woff2'),
+    url('../fonts/worksans-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansextralight';
+    src: url('../fonts/worksans-extralight.woff2') format('woff2'),
+    url('../fonts/worksans-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sanshairline';
+    src: url('../fonts/worksans-hairline.woff2') format('woff2'),
+    url('../fonts/worksans-hairline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sanslight';
+    src: url('../fonts/worksans-light.woff2') format('woff2'),
+    url('../fonts/worksans-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansmedium';
+    src: url('../fonts/worksans-medium.woff2') format('woff2'),
+    url('../fonts/worksans-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'work_sansregular';
+    src: url('../fonts/worksans-regular.woff2') format('woff2'),
+    url('../fonts/worksans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
