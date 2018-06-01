@@ -285,7 +285,7 @@ font-weight: 300;
 color: #3D4246;
 letter-spacing: -1px;
 }
-#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link { border-bottom: 3px solid #fff; }
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link { border-bottom: 3px solid transparent; }
 h2.holoblade-section-title br {
 display: none;
 }
@@ -1355,12 +1355,12 @@ div#panel-21-0-0-1 {
     padding: 0 97px;
 }
 .holographic-display h1 {
-    font-size: 48px;
+    font-size: 2.25rem;
     font-family: armourbold;
     font-weight: 700;
-    letter-spacing: -4px;
-    color: #2e2d2d;
-    line-height: 48px;
+    letter-spacing: -1px;
+    color: #3d4246;
+    line-height: 43.2px;
 }
 .holographic-display {
     text-align: center;
@@ -1373,11 +1373,17 @@ div#panel-21-0-0-1 {
 }
 .holographic-display .custom-html-widget > span {
     font-family: 'armourlight', sans-serif;
-    font-size: 30.4px;
-    color: #2e2d2d;
-    letter-spacing: -1px;
+    font-size: 20px;
+    color: #3d4246;
+    letter-spacing: 0px;
     font-weight: 300;
-    line-height: 1;
+    line-height: 30px;
+    display: block;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+.holographic-display .custom-html-widget > span strong {
+    font-weight: bold;
 }
 .ultra_light_and_slim h2 {
     font-size: 2.25rem;
@@ -1463,10 +1469,9 @@ div#panel-21-0-0-1 {
     color: #fff;
     font-size: 78px;
     font-family: 'armourxbold';
-    /* position: relative; */
     margin-bottom: 45px;
     line-height: 80px;
-    letter-spacing:-2px;
+    letter-spacing: -1px;
     width: 100%;
     float: left;
 }
@@ -1642,4 +1647,184 @@ div#panel-w5b07eeabc47c1-0-1-0 p, div#pgc-w5b07ee9071ba9-0-1 p {
 }
 div#panel-w5b07eeabc465e-0-1-0 p {
     font-size: 18px;
+}
+div#kiosks-get-yourhands {
+    background-size: auto !important;
+    padding: 0 100px !important;
+    background-position: center !important;
+}
+.holographic-display p.talkfordesignpara {
+    display: block;
+    text-align: left;
+    margin-top: 100px;
+}
+
+div#customise-needs h1,
+div#standing_event_div h1,
+h1.main_heading,
+div#stand_out_div h1 {
+    font-size: 2.25rem;
+    line-height: 43.2px;
+    letter-spacing: -1px;
+    color: #3d4246
+}
+div#stand_out_div p.standoutext {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    margin-bottom: 90px;
+    color: #3d4246;
+    font-family: 'armourlight';
+}
+div#customise-needs p,
+div#standing_event_div p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #3d4246;
+    font-family: 'armourlight';
+}
+.kiosk p.talkfordesignpara {
+    text-align: center;
+    margin: 0;
+}
+div#row_stand_div p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'armourlight';
+    color: #919090;
+}
+div#wow_factor_div h1 {
+    font-size: 2.25rem;
+    line-height: 43.2px;
+    letter-spacing: -1px;
+}
+
+div#do_more_div p,
+div#wow_factor_div p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-family: 'armourlight';
+}
+div#row_stand_div h1 {
+    font-size: 2.25rem;
+    letter-spacing: -1px;
+    line-height: 43.2px;
+}
+h1.main_heading {
+    text-align: center;
+    margin: 30px 0;
+    display: block;
+    width: 100%;
+    font-family: 'armourmedium';
+}
+div#row_stand_div h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'armourmedium'
+}
+div#stand_box_div {
+    align-items: unset !important;
+    background-size: contain !important;
+    background-color: #0e0e0e !important;
+}
+div#stand_box_div .panel-grid-cell {
+    margin-top: 563px;
+}
+
+div#stand_box_div h1 {
+    font-size: 2.25rem;
+    line-height: 43.2px;
+    letter-spacing: -1px;
+    font-family: 'armourlight';
+    margin-bottom: 44px;
+}
+
+div#stand_box_div p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'armourlight';
+}
+div#stand_box_div p.talkfordesignpara {
+    margin-top: 68px;
+}
+
+div#do_more_div h1{
+    font-size: 2.25rem;
+    line-height: 43.2px;
+    letter-spacing: -1px;
+    font-family: 'armourlight';
+}
+.siteorigin-panels-stretch.panel-row-style.panel-row-style-for-947-9 {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.blog-main-page img {
+    max-width: 100%;
+}
+
+.blog-row h2 a {
+    color: #54276e;
+    display: block;
+    font-size: 2.25rem;
+    line-height: 43.2px;
+    letter-spacing: -1px;
+    font-family: 'armourlight';
+    margin-top: 10px
+}
+
+.blog-row p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'armourlight';
+}
+div#comments {
+}
+
+div#comments h3#reply-title {
+    font-size: 2.25rem;
+    line-height: 43.2px;
+    letter-spacing: -1px;
+    font-family: 'armourlight';
+}
+
+form#commentform {}
+
+form#commentform p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'armourlight';
+}
+
+form#commentform p > label {
+    display: block;
+    font-family: 'armourmedium';
+    font-size: 18px;
+}
+
+form#commentform p input, form#commentform p textarea {
+    width: 50%;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+}
+
+form#commentform p input {
+    height: 36px;
+}
+
+form#commentform input#submit {
+    display: block;
+    width: auto;
+    background: #54276e;
+    color: #fff;
+    font-family: 'armourmedium';
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 46px;
+    padding: 0px 15px;
+    height: 46px;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
 }

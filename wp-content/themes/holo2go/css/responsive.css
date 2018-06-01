@@ -69,6 +69,22 @@
         padding-left: 5px;
         padding-right: 5px;
     }
+    #schedule-demo,
+    div#schedule-demo-row {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+        justify-content: center !important;
+    }
+
+    #schedule-demo h2,
+    #schedule-demo-row h2 {
+        text-align: center !important;
+    }
+
+    #schedule-demo .origin-widget.origin-widget-button.origin-widget-button-simple-green.align-left,
+    #schedule-demo-row .origin-widget.origin-widget-button.origin-widget-button-simple-green.align-left {
+        text-align: center;
+    }
 }
 
 @media (max-width: 1190px){
@@ -84,6 +100,7 @@
         width: calc(100% - 180px);
         padding:0;
         position: unset;
+        max-width: calc(100% - 180px);
     }
     #mega-menu-wrap-primary,
     nav.navbar.navbar-expand-xl.justify-content-end.p-0{
@@ -172,6 +189,74 @@
     div#how_we_stepup {
         padding-top: 5rem;
     }
+
+    /*kiosk*/
+    .holographic_kiosks {
+        padding: 0 22px;
+    }
+
+    .holographic_kiosks p {
+        font-size: 24px;
+    }
+
+    .holographic_kiosks h2 {
+        font-size: 2.25rem;
+        line-height: 43.2px;
+    }
+
+    .main_slide_text_div.siteorigin-panels-stretch.panel-row-style.panel-row-style-for-947-0 {
+        background-size: auto !important;
+        background-repeat: no-repeat !important;
+        background-position: top center !important;
+        height: auto !important;
+        min-height: 600px;
+    }
+
+    div#kiosks-get-yourhands {
+        padding: 90px 22px !important;
+        height: 600px !important;
+        background-repeat: no-repeat !important;
+        background-position: top right !important;
+        background-size: 100% 100% !important;
+    }
+
+    div#wow_factor_div {
+        padding: 90px 22px !important;
+        height: auto !important;
+    }
+
+    div#stand_out_div {
+        padding: 90px 22px !important;
+        height: auto !important;
+    }
+
+    div#pgc-947-4-1 {
+        margin-bottom: 30px;
+    }
+
+    div#standing_event_div {
+        padding: 90px 22px !important;
+        background-position: center !important;
+        background-size: 100% 900px !important;
+        background-repeat: no-repeat;
+    }
+
+    div#stand_box_div {
+        background-repeat: no-repeat;
+        height: 600px !important;
+        padding: 90px 22px !important;
+    }
+
+    div#stand_box_div .panel-grid-cell {
+        margin-top: 0;
+    }
+
+    .siteorigin-panels-stretch.panel-row-style.panel-row-style-for-947-9 {
+        background-repeat: no-repeat !important;
+        height: 100px !important;
+        padding: 90px 22px !important;
+    }
+    /*kiosk*/
 }
 
 @media (min-width: 1025px){
@@ -191,6 +276,12 @@
     .video_slider .carousel-item {
         margin: 30px 0;
         float: left;
+    }
+}
+
+@media (max-width: 991px){
+    form#commentform p input, form#commentform p textarea{
+        width: 100%
     }
 }
 
@@ -293,6 +384,12 @@
     div#holos-holosense{display: none}
     .video_slider_tablet.mybannerslider img.img-responsive.home-slider-img{width: 100%}
     #none-homepage {display: none}
+    section.footer-subcription-div,
+    div#questions-section,
+    div#purple-manage {
+        padding-left: 55px !important;
+        padding-right: 55px !important;
+    }
 
 }
 /* responsive css for tablet*/
@@ -444,6 +541,7 @@
     }
     div#how_we_stepup, .stackup-tables.siteorigin-panels-stretch.panel-row-style{background: #fff}
     .wpsm-comptable tr:nth-last-child(2) td:after{display: block}
+
     section.footer-subcription-div,
     div#questions-section,
     div#purple-manage {
